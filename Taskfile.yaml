@@ -1,0 +1,19 @@
+version: 3
+
+tasks:
+  check:
+    desc: Checks for NodeJS package upgrades
+    cmd: ncu
+
+  upgrade:
+    desc: Upgrades the NodeJS packages
+    cmds:
+      - ncu -u
+      - yarn install
+      - yarn test
+
+  bump-patch:
+    desc: Bump patch version in package.json and create tag for version and push to remote repo
+    cmds:
+      - yarn bump:patch
+      - git push origin $(git describe)
