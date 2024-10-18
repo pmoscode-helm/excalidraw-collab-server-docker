@@ -1,6 +1,6 @@
 FROM node:18-alpine
 
-WORKDIR /excalidraw-collab
+WORKDIR /excalidraw-collab-server
 
 COPY package.json yarn.lock ./
 RUN yarn

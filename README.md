@@ -1,4 +1,4 @@
-# excalidraw-collab
+# excalidraw-collab-server
 
 This is a clone of the original Excalidraw-room repo: https://github.com/excalidraw/excalidraw-room
 
