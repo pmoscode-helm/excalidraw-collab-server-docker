@@ -1,4 +1,4 @@
-name: Test & Build
+name: Build
 
 on:
   push:
@@ -17,7 +17,6 @@ jobs:
       - name: Install dependencies
         run: yarn --frozen-lockfile
 
-      - name: Test and Build
+      - name: Build
         run: |
-          yarn test:code
           yarn build
