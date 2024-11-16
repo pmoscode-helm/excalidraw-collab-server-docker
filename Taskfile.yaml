@@ -10,7 +10,6 @@ tasks:
     cmds:
       - ncu -u
       - yarn install
-      - yarn test
 
   bump-patch:
     desc: Bump patch version in package.json and create tag for version and push to remote repo
