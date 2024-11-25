@@ -4,9 +4,9 @@
     "socket.io": "^4.8.1"
   },
   "devDependencies": {
-    "@types/node": "22.9.0",
+    "@types/node": "22.9.4",
     "ts-node-dev": "^2.0.0",
-    "typescript": "5.6.3"
+    "typescript": "5.7.2"
   },
   "license": "MIT",
   "main": "dist/index.js",
