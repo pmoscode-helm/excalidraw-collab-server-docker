@@ -2,8 +2,8 @@ name: Nightly Docker Build
 
 on:
   schedule:
-    - cron: '0 0 * * *' # jeden Tag um Mitternacht
-  workflow_dispatch: # manuell auslösbar
+    - cron: '0 3 * * *'
+  workflow_dispatch:
 
 jobs:
   nightly:
