@@ -12,6 +12,8 @@ RUN yarn build
 
 FROM pmoscode/nodejs-24-nondebug:dev
 
+ENV PORT=3002
+
 COPY --chown=nonroot:nonroot --from=builder /app/ ./
 
 EXPOSE 3002
