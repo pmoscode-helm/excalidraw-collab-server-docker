@@ -1,4 +1,4 @@
-FROM node:23-alpine AS builder
+FROM node:24-alpine AS builder
 
 WORKDIR /app
 
@@ -10,7 +10,7 @@ COPY src ./src
 RUN yarn build
 
 
-FROM pmoscode/nodejs-23-nondebug:dev
+FROM pmoscode/nodejs-24-nondebug:dev
 
 COPY --chown=nonroot:nonroot --from=builder /app/ ./
 
