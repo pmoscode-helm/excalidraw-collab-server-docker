@@ -1,0 +1,22 @@
+{
+  "branches": ["main"],
+  "repositoryUrl": "https://github.com/pmoscode-helm/excalidraw-collab-server-docker",
+  "plugins": [
+    ["@semantic-release/commit-analyzer", {
+      "preset": "conventionalcommits"
+    }],
+    ["@semantic-release/release-notes-generator"],
+    ["@semantic-release/changelog", {
+      "changelogFile": "CHANGELOG.md"
+    }],
+    ["@semantic-release/git", {
+      "assets": ["package.json", "CHANGELOG.md"],
+      "message": "chore(release): ${nextRelease.version} [skip ci]\n\n${nextRelease.notes}"
+    }],
+    ["@semantic-release/exec", {
+      "prepareCmd": "echo ${nextRelease.version} > .VERSION",
+      "publishCmd": "docker build -t pmoscode/excalidraw-collab-server:${nextRelease.version} -t pmoscode/excalidraw-collab-server:latest . && docker push pmoscode/excalidraw-collab-server:${nextRelease.version} && docker push pmoscode/excalidraw-collab-server:latest"
+    }]
+  ],
+  "tagFormat": "v${version}"
+}
