@@ -4,7 +4,11 @@
     "socket.io": "^4.8.1"
   },
   "devDependencies": {
+    "@semantic-release/changelog": "^6.0.3",
+    "@semantic-release/exec": "^7.1.0",
+    "@semantic-release/git": "^10.0.1",
     "@types/node": "24.8.0",
+    "semantic-release": "^25.0.0",
     "ts-node-dev": "^2.0.0",
     "typescript": "5.9.3"
   },
