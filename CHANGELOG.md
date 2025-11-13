@@ -1,3 +1,11 @@
+# [1.1.0](https://github.com/pmoscode-helm/excalidraw-collab-server-docker/compare/v1.0.0...v1.1.0) (2025-11-13)
+
+
+### Features
+
+* Dockerfile add port env [skip ci] ([cea0ad1](https://github.com/pmoscode-helm/excalidraw-collab-server-docker/commit/cea0ad1aa4fb2e0be1dbe1f8975e9900927b4574))
+* enhance logging and error handling in collab server ([0fb85c3](https://github.com/pmoscode-helm/excalidraw-collab-server-docker/commit/0fb85c3b97837da724065d79df4189d978c77496))
+
 # 1.0.0 (2025-10-16)
 
 
