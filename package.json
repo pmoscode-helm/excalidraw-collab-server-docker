@@ -9,7 +9,7 @@
     "@semantic-release/changelog": "^6.0.3",
     "@semantic-release/exec": "^7.1.0",
     "@semantic-release/git": "^10.0.1",
-    "@types/node": "24.10.1",
+    "@types/node": "24.13.4",
     "conventional-changelog-conventionalcommits": "^9.1.0",
     "semantic-release": "^25.0.2",
     "ts-node-dev": "^2.0.0",
