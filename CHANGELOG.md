@@ -1,3 +1,9 @@
+## [1.2.1](https://github.com/pmoscode-helm/excalidraw-collab-server-docker/compare/v1.2.0...v1.2.1) (2026-11-26)
+
+### Bug Fixes
+
+* install specific version of yarn for node >= 26 compatibility ([ea8d3da](https://github.com/pmoscode-helm/excalidraw-collab-server-docker/commit/ea8d3daabb6f5ed515f15dc4f380bbd93a2f8b05))
+
 # [1.2.0](https://github.com/pmoscode-helm/excalidraw-collab-server-docker/compare/v1.1.0...v1.2.0) (2026-11-26)
 
 ### Features
