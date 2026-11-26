@@ -1,3 +1,9 @@
+# [1.2.0](https://github.com/pmoscode-helm/excalidraw-collab-server-docker/compare/v1.1.0...v1.2.0) (2026-11-26)
+
+### Features
+
+* upgrade deps + adjust to new TS 7 ([b477024](https://github.com/pmoscode-helm/excalidraw-collab-server-docker/commit/b4770246184137dbc2298b924d10f1df44c04b2f))
+
 # [1.1.0](https://github.com/pmoscode-helm/excalidraw-collab-server-docker/compare/v1.0.0...v1.1.0) (2025-11-13)
 
 
